@@ -5,7 +5,7 @@ namespace ConsoleAppStockPriceGetter
 	public static class StockInfo
 	{
 		const string url = "https://finnhub.io/api/v1/";
-		const string apiKey = "c1fsehf48v6r34ehko00";
+		const string apiKey = "YourAPIKey";
 
 		//This method gets the Information related to ticker symbol
 		public static SymbolLookUp GetStockSymbolInfo(string querySymbolLookUp)
